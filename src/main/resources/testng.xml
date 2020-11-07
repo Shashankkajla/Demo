@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "LogoStore Test Automation Test Suite">
+
+ <!-- <Add listener tag to run extent report it will listen each & every thing, after suite 
+& before test tag have to rite Listener tag>
+  -->
+   <!-- <listeners>
+    <listener class-name= "com.qa.ExtentReportListener.ExtentReporterNG" />
+  </listeners> -->
+  
+<test name= "LogoStore Application Test" >
+
+ <classes>
+     <class name="com.qa.store.test.MainPageTest" />
+     
+        
+     </classes>
+
+    </test> 
+    </suite>
